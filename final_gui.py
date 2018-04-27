@@ -59,7 +59,7 @@ def frame2():
             print("loading over")
             # load.destroy()
             # text.destroy()
-            db = mysql.connector.connect(host="localhost", user="root", passwd="03041999", db="jobs")
+            db = mysql.connector.connect(host="localhost", user="root", passwd="password", db="jobs")
             cursor = db.cursor()
             # query = "select * from job_details where experience like \'" + s + "%\' or experience like \'%" + s + "%\' or experience like \'%" + s + "\'"
 

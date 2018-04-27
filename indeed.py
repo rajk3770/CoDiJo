@@ -4,7 +4,7 @@ import nltk
 # from nltk import tokenize
 import mysql.connector
 
-db = mysql.connector.connect(host="localhost", user="root", passwd="03041999", db="jobs")
+db = mysql.connector.connect(host="localhost", user="root", passwd="password", db="jobs")
 cursor = db.cursor()
 
 
